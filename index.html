@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My iOS Apps</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: 'Helvetica Neue', sans-serif;
+    }
+
+    .hero-section {
+      background: url('https://source.unsplash.com/1600x900/?technology,iphone') no-repeat center center;
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero-text {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 2rem;
+      border-radius: 1rem;
+    }
+
+    .app-card {
+      background-color: #111;
+      border: none;
+    }
+
+    .app-card img {
+      border-radius: 0.5rem;
+    }
+
+    .btn-custom {
+      background-color: #fff;
+      color: #000;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="hero-section">
+    <div class="hero-text">
+      <h1 class="display-4">Discover My iOS Apps</h1>
+      <p class="lead">Sleek, simple, and powerful tools right in your pocket.</p>
+      <a href="#apps" class="btn btn-custom btn-lg mt-3">Explore Apps</a>
+    </div>
+  </section>
+
+  <section id="apps" class="py-5">
+    <div class="container">
+      <div class="row text-center mb-5">
+        <h2 class="display-5">Featured Apps</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card app-card">
+            <img src="https://source.unsplash.com/400x300/?app,interface" class="card-img-top" alt="App 1">
+            <div class="card-body">
+              <h5 class="card-title">App One</h5>
+              <p class="card-text">Your everyday companion for managing tasks with ease.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card app-card">
+            <img src="https://source.unsplash.com/400x300/?mobile,design" class="card-img-top" alt="App 2">
+            <div class="card-body">
+              <h5 class="card-title">App Two</h5>
+              <p class="card-text">Streamline your workflow with our minimalist design.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card app-card">
+            <img src="https://source.unsplash.com/400x300/?iphone,app" class="card-img-top" alt="App 3">
+            <div class="card-body">
+              <h5 class="card-title">App Three</h5>
+              <p class="card-text">Organize your life with smart features and elegant UI.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center py-4">
+    <p class="mb-0">&copy; 2025 My iOS Apps. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
